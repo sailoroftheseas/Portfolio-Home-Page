@@ -9,20 +9,32 @@
 	
 	<meta charset="utf-8">
 
-</head>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 <style>
 
+a { color: black; }
+
+
+a:hover {
+  
+color: white;
+
+}
 .assignments{
 
-background-color: #CBCBCB;
+background-color: green;
 padding:20px;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
+margin-bottom: 50px;
 
 }
 
 ul { 
+  
 display:table; margin:0 auto;
 
 }
@@ -31,6 +43,11 @@ h1{
 
 text-align:center;
 
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 #wrapper {
@@ -44,7 +61,12 @@ text-align:center;
 
   .assignments {
   
-  background: red;
+  background: orange;
+  padding:5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   
   }
   
@@ -61,7 +83,13 @@ text-align:center;
 
   .assignments {
   
-  background: green;
+  background: yellow;
+   padding:5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
   
   }
   
@@ -78,7 +106,12 @@ text-align:center;
 
   .assignments {
   
-  background: #CBCBCB;
+  background: green;
+  padding:20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   
   }
   
@@ -93,44 +126,82 @@ text-align:center;
 
 </style>
 
-<body>
+</head>
+
+
+<body style="background-color:grey;">
 
 <h1>Home Page</h1>
 
 <div class="assignments">
 <ul>
-	<li>Media Queries Portfolio Page</li>
-	<li>Resumé Using Skeleton</li>
-	<li>Bootstrap Website</li>
-	<li>Sass </li>
-	<li>Industry Exploration</li>
-	<li>Git Repository </li>
+	<li><a href="#media_queries_page">Media Queries Portfolio Page</a></li>
+	<li><a href="#skeleton_assignment">Resume using skeleton</a></li>
+	<li><a href="#bootstrap_assignment">Bootstrap Website</a></li>
+	<li><a href="#sass_assignment">SASS</a></li>
+  <li><a href="#industry_exploration_assignment">Industry Exploration</a></li>
+	<li><a href="#git_repository_assignment">Git Repository</a></li>
+
 </ul>
 </div>
 
+<h2>Assignments</h2>
+
 <div id="wrapper">
-<img src="pictureofanapple.jpeg" alt="apple">
-<p>Media Queries Portfolio Page <br> Description: <br> Reflection:</p>
+<div id="media_queries_page">
+<img src="pictureofanapple.jpeg" alt="placeholder image">
+<p>Assignment: Media Queries Portfolio Page</p>
+<p> Description:</p>
+<p> Reflection:</p>
+</div>
 
-<img src="pictureofanapple.jpeg" alt="apple">
-<p>Resumé Using Skeleton <br> Description: <br> Reflection:</p>
+<br>
 
-<img src="pictureofanapple.jpeg" alt="apple">
-<p>Bootstrap Website <br> Description: <br> Reflection:</p>
+<div id="skeleton_assignment">
+<img src="pictureofanapple.jpeg" alt="placeholder image">
+<p>Assignment: Resume Using Skeleton</p>
+<p> Description:</p>
+<p> Reflection:</p>
+</div>
 
-<img src="pictureofanapple.jpeg" alt="apple">
-<p>Sass <br> Description: <br> Reflection:</p>
+<br>
 
-<img src="pictureofanapple.jpeg" alt="apple">
-<p>Industry Exploration <br> Description: <br> Reflection:</p>
+<div id="bootstrap_assignment">
+<img src="pictureofanapple.jpeg" alt="placeholder image">
+<p>Assignment: Bootstrap Website</p>
+<p> Description:</p>
+<p> Reflection:</p>
+</div>
 
-<img src="pictureofanapple.jpeg" alt="apple">
-<p>Git Repository <br> Description: <br> Reflection:</p>
+<br>
 
+<div id="sass_assignment">
+<img src="pictureofanapple.jpeg" alt="placeholder image">
+<p>Assignment: SASS</p>
+<p> Description:</p>
+<p> Reflection:</p>
+</div>
+<br>
 
-<p> Progress: <progress value="0.1"> </progress> </p>
+<div id="industry_exploration_assignment">
+<img src="pictureofanapple.jpeg" alt="placeholder image">
+<p>Assignment: Industry Exploration</p>
+<p> Description:</p>
+<p> Reflection:</p>
+</div>
 
-<p> Meter: <meter value="10" min="0" max="100"> </meter> </p>
+<br>
+
+<div id="git_repository_assignment">
+<img src="pictureofanapple.jpeg" alt="placeholder image">
+<p>Assignment: Git Repository</p>
+<p> Description:</p>
+<p> Reflection:</p>
+</div>
+
+<br>
+
+<p> DPR 241 Progress: <meter value="10" min="0" max="60"> </meter> </p>
 </div>
 </body>
 
